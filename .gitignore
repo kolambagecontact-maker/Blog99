@@ -1,0 +1,18 @@
+# Blog99. — Git Ignore Configuration
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / Secret Credentials
+config/database.php
+
+# Database Dumps / Temporary Scripts
+scratch/
+test_*.jpg
+test_*.png
+migrate_*.php
+
+# Server Logs
+*.log
